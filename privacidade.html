@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — Secretário Digital</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1f2328; --bg:#ffffff; --muted:#59636e; --link:#0b57d0; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e6edf3; --bg:#0d1117; --muted:#9198a1; --link:#79b8ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:3rem 1.25rem; }
+  h1 { font-size:1.8rem; margin:0 0 .25rem; }
+  h2 { font-size:1.2rem; margin:2rem 0 .5rem; }
+  p.sub { color:var(--muted); margin:0 0 1.5rem; }
+  a { color:var(--link); }
+  li { margin:.3rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidade</h1>
+  <p class="sub">Secretário Digital · atualizada em 2 de novembro de 2026</p>
+
+  <h2>Quem somos</h2>
+  <p>O Secretário Digital é um assistente pessoal de uso privado, criado e operado por Henrique Motta. Ele não é oferecido ao público e não tem outros usuários: a única conta conectada é a do próprio proprietário.</p>
+
+  <h2>Quais dados da sua conta Google são acessados</h2>
+  <p>Mediante autorização do proprietário, o app usa duas permissões do Google:</p>
+  <ul>
+    <li><strong>Google Agenda</strong> (<code>calendar.events.owned</code>): ler, criar, alterar e apagar eventos das agendas do próprio proprietário. Apagar um evento só acontece depois de uma confirmação explícita do proprietário.</li>
+    <li><strong>Gmail</strong> (<code>gmail.compose</code>): criar rascunhos de e-mail. Um e-mail só é enviado depois de uma confirmação explícita do proprietário, que vê o texto completo e os destinatários antes de confirmar.</li>
+  </ul>
+  <p>O app não lê a caixa de entrada e não acessa contatos, arquivos do Drive nem outros dados da conta.</p>
+
+  <h2>Para que os dados são usados</h2>
+  <p>Exclusivamente para executar os pedidos que o proprietário faz ao assistente pelo WhatsApp (por exemplo, "o que tenho amanhã?" ou "crie um rascunho de e-mail para…"). Os dados não são usados para publicidade, perfil de consumo, venda ou qualquer outro fim.</p>
+
+  <h2>Com quem os dados são compartilhados</h2>
+  <p>Com ninguém, exceto os serviços técnicos necessários ao funcionamento do assistente:</p>
+  <ul>
+    <li><strong>Anthropic (API Claude):</strong> o texto dos pedidos e as informações de agenda necessárias para respondê-los são enviados para interpretar o pedido e redigir a resposta.</li>
+    <li><strong>Notion:</strong> listas de compras, tarefas e ideias criadas pelo proprietário.</li>
+    <li><strong>WhatsApp:</strong> as mensagens trocadas entre o proprietário e o assistente.</li>
+  </ul>
+  <p>O uso e a transferência, a qualquer outro aplicativo, de informações recebidas das APIs do Google obedecem à <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+  <h2>Onde os dados ficam guardados</h2>
+  <p>O app roda em um servidor privado do proprietário. A credencial de acesso do Google é guardada nesse servidor, em arquivo de acesso restrito, e nunca é compartilhada. Eventos do Google Agenda permanecem no Google; o app guarda apenas os lembretes que o proprietário pede, em banco de dados no mesmo servidor.</p>
+
+  <h2>Como revogar o acesso e apagar os dados</h2>
+  <p>O proprietário pode revogar o acesso a qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Depois disso, o app perde o acesso à conta Google, e a credencial guardada no servidor deixa de funcionar e pode ser apagada. Os lembretes e listas podem ser apagados pelo próprio assistente ou diretamente nos serviços onde estão.</p>
+
+  <h2>Contato</h2>
+  <p>Dúvidas sobre esta política: <a href="mailto:motta.henrique91@gmail.com">motta.henrique91@gmail.com</a>.</p>
+</main>
+</body>
+</html>
